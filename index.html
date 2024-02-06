@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css" />
+    <link rel="stylesheet" media="screen" href="css/normalize.css" />
+    <link rel="stylesheet" media="screen" href="css/screen.css" />
     <title>Form</title>
   </head>
 
@@ -10,15 +14,16 @@
       <fieldset>
         <legend>Complete the form</legend>
         <div>
-           <label>Email Address: <input type="text" name="text_field" placeholder="email"></label>
+           <label>Email Address: <input type="text" name="text_field" placeholder="Email" required></label>
         </div>
         <div>
-          <label>Phone Number: <input type="tel" name="phone" placeholder="phone"></label>
+          <label>Phone Number: <input type="tel" name="phone" placeholder="Phone Number" required></label>
         </div>
         <div>
-          <label>Date of Birth</label>
+          <label>Date of Birth: <input type="date" name="birth_date" required></label>
         </div>
       </fieldset>
+      <input type="submit" value="Submit">
 
     </form>
     
